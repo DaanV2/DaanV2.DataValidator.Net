@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>DaanV2.Data</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\DaanV2.DataValidator.Net Source\DaanV2.DataValidator.Net Source.projitems" Label="Shared" />
+
+</Project>

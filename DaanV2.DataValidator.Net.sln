@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6A830063-8B1D-4051-A32D-56E933623CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaanV2.DataValidator.Net Core 3.1", "DaanV2.DataValidator.Net Core 3.1\DaanV2.DataValidator.Net Core 3.1.csproj", "{B92DA1F2-DD47-4A9D-B1EC-77A82F322CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaanV2.DataValidator.Net Standard 2.1", "DaanV2.DataValidator.Net Standard 2.1\DaanV2.DataValidator.Net Standard 2.1.csproj", "{F896C0B3-FD17-4313-80F8-F1876CB1ADD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{2B6C4FDC-9E9B-4FBB-9AC9-79D846FC215D}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DaanV2.DataValidator.Net Source", "DaanV2.DataValidator.Net Source\DaanV2.DataValidator.Net Source.shproj", "{5D86C1B7-B41A-4FC5-A826-749AB2449519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96BBBA20-B49B-4D15-B015-F630F33BAD75}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DaanV2.DataValidator.Net Source\DaanV2.DataValidator.Net Source.projitems*{5d86c1b7-b41a-4fc5-a826-749ab2449519}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B92DA1F2-DD47-4A9D-B1EC-77A82F322CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92DA1F2-DD47-4A9D-B1EC-77A82F322CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92DA1F2-DD47-4A9D-B1EC-77A82F322CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92DA1F2-DD47-4A9D-B1EC-77A82F322CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F896C0B3-FD17-4313-80F8-F1876CB1ADD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F896C0B3-FD17-4313-80F8-F1876CB1ADD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F896C0B3-FD17-4313-80F8-F1876CB1ADD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F896C0B3-FD17-4313-80F8-F1876CB1ADD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B92DA1F2-DD47-4A9D-B1EC-77A82F322CE6} = {6A830063-8B1D-4051-A32D-56E933623CD7}
+		{F896C0B3-FD17-4313-80F8-F1876CB1ADD0} = {6A830063-8B1D-4051-A32D-56E933623CD7}
+		{5D86C1B7-B41A-4FC5-A826-749AB2449519} = {2B6C4FDC-9E9B-4FBB-9AC9-79D846FC215D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {331A81EC-8AF0-40AE-9992-935E3DE5AF91}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>5d86c1b7-b41a-4fc5-a826-749ab2449519</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DaanV2.Data</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\DataConnections\DataConnections - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\DataConnections\DataConnections - Properties.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\DataConnections\DataConnections - Variables.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\DataContainerAttribute\DataContainerAttribute - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\DataCreateAttribute\DataCreateAttribute - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\DataDestroyAttribute\DataDestroyAttribute - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\DataValidatorAttribute\DataValidatorAttribute - Initialize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Static Classes\DataController\DataController - Create.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Static Classes\DataController\DataController - Variables.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Static Classes\DataController\DataController - Load.cs" />
+  </ItemGroup>
+</Project>
